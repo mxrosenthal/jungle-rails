@@ -1,4 +1,5 @@
 class OrdersController < ApplicationController
+  include HttpAuthConcern
 
   def show
     @order = Order.find(params[:id])
