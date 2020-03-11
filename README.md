@@ -30,7 +30,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screen Shots
 
-!["Home Page"]()
-!["Cart"]()
-!["Pay With your card."]()
-!["Order recite"]()
+The following pictures depict our homepage where you can select items to add to your cart; see what your cart contains and then pay by card. Your order recipt will
+contain the details of your purchase!
+
+!["Home Page"](https://github.com/mxrosenthal/jungle-rails/blob/master/docs/Home%20page.png?raw=true)
+!["Cart"](https://github.com/mxrosenthal/jungle-rails/blob/master/docs/cart.png?raw=true)
+!["Pay With your card."](https://github.com/mxrosenthal/jungle-rails/blob/master/docs/pay%20by%20card.png?raw=true)
+!["Order recipt"](https://github.com/mxrosenthal/jungle-rails/blob/master/docs/order%20recite.png?raw=true)
