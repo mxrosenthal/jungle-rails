@@ -6,8 +6,9 @@ class SessionsController < ApplicationController
   def create
     #trims leading and trailing spaces.
   
-    if user = User.authenticate_with_credentials(params[:email].strip, params[:password])
+    if user = User.authenticate_with_credentials(params[:email], params[:password])
       # success logic, log them in
+      puts "User #{user}"
       session[:user_id] = user.id
       redirect_to '/'
     else
@@ -15,6 +16,7 @@ class SessionsController < ApplicationController
       redirect_to '/login'
     end
   end
+
   def destroy
     session[:user_id] = nil
     redirect_to '/login'
